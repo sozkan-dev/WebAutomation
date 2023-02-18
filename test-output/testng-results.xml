@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-18T01:41:54 TRT" name="Default suite" finished-at="2023-02-18T01:42:04 TRT" duration-ms="10349">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@7bba5817]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-18T01:41:54 TRT" name="Default test" finished-at="2023-02-18T01:42:04 TRT" duration-ms="10349">
+      <class name="runners.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.Runner@7bba5817]" started-at="2023-02-18T01:41:54 TRT" name="setUpClass" finished-at="2023-02-18T01:41:54 TRT" duration-ms="419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6650813a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@7bba5817]" started-at="2023-02-18T01:41:54 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-18T01:42:04 TRT" duration-ms="9780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching a product from Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Searching"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@7bba5817]" started-at="2023-02-18T01:41:54 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-18T01:42:04 TRT" duration-ms="9836" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching a prodcut from HomePage with enter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Searching"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:743)
+at org.junit.Assert.assertEquals(Assert.java:118)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at stepDefinitions.SearchProduct_Steps.ı_validate_the_first_product_whether_related_to_product(SearchProduct_Steps.java:41)
+at ✽.I validate the product whether results are related to dove soap(classpath:features/AmazonSearchCase.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.Runner@7bba5817]" started-at="2023-02-18T01:42:04 TRT" name="tearDownClass" finished-at="2023-02-18T01:42:04 TRT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
