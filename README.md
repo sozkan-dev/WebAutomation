@@ -61,6 +61,7 @@ Java, Selenium, Cucumber, TestNG, JUnit
 
 * **ozkansaricam** -
 *Computer Engineer | Java Developer  | Software Development Engineer in Test* -
-[ozkansaricam](https://github.com/sozkan-dev) 
+[ozkansaricam](https://github.com/sozkan-dev)
+*.js linguist-vendored
 
 
